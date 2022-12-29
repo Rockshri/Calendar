@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calendar
+        </title>
+        <style>
+            *{
+                padding:0px;
+                margin: 0px;
+                box-sizing: border-box;
+                font: inherit;
+            }
+            h1{ 
+                border: solid black 3px;
+                font-size: 50px;
+                text-align: center;
+                height: 70px;
+                margin-bottom: 2px;
+                font-family: Georgia, Times, 'Times New Roman', serif;
+                font-weight: bold;
+                background-color: rgba(143, 20, 20, 0.78);
+                border-radius: 5%;
+                text-decoration: underline;
+            }
+            .container{
+                border: rgb(167, 148, 148) 5px double;
+                border-style: double ;
+                height: 100vh;
+                background-color: aquamarine;
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto auto;
+                gap: 5px;
+                background-image: radial-gradient(circle at 0% 50%,rgb(55, 234, 23,0.3), white,transparent , rgb(208, 139, 55), transparent), url(https://i.pinimg.com/originals/9c/13/0f/9c130f4a650c7f7c799a898d101c474c.jpg);
+                background-position: 50% 30%;
+                background-repeat: no-repeat;
+                background-size: cover;
+              
+            }
+            .container>div{
+                 margin-top: 3px;
+                 text-align: center;
+                padding-top: 4px;
+               
+               border-radius: 30%;
+               box-shadow: 3px 2px 8px;
+                
+            }
+            div>.days{
+                border: rgb(84, 29, 29) 3px solid;
+                background-color: rgba(141, 25, 199, 0.3);
+                height: 100px;
+                width: 200px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 35px;
+                padding-top: 20px;
+                font-weight: bolder;
+            }
+            .date1{
+                grid-column: 3/4;
+            }
+            div.dd{
+                border: 2px rgb(28, 4, 4) solid;
+                font-size: 30px;
+                font-weight: bold;
+                height:90px;
+                width: 200px;
+                padding-top: 30px;
+                background-image: linear-gradient(90deg, rgb(240, 182, 11,0.6), white 40%, transparent, rgb(177, 230, 120));
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <h1>DECEMBER - 2022</h1>
+        <div class="container">
+        
+            <div class="item days">Sun</div>
+            <div class="item days ">Mon</div>
+            <div class="item days">Tues</div>
+            <div class="item days">Wed</div>
+            <div class="item days">Thur</div>
+            <div class="item days">Fri</div>
+            <div class="item days">Sat</div>
+       
+       
+            <div class="item dd date1">1</div>
+            <div class="item dd date2">2</div>
+            <div class="item dd date3">3</div>
+            <div class="item dd date4">4</div>
+            <div class="item dd date5">5</div>
+            <div class="item dd date6">6</div>
+            <div class="item dd date7">7</div>
+            <div class="item dd date8">8</div>
+            <div class="item dd date9">9</div>
+            <div class="item dd date10">10</div>
+            <div class="item dd date11">11</div>
+            <div class="item dd date12">12</div>
+            <div class="item dd date13">13</div>
+            <div class="item dd date14">14</div>
+            <div class="item dd date15">15</div>
+            <div class="item dd date16">16</div>
+            <div class="item dd date17">17</div>
+            <div class="item dd date18">18</div>
+            <div class="item dd date19">19</div>
+            <div class="item dd date20">20</div>
+            <div class="item dd date21">21</div>
+            <div class="item dd date22">22</div>
+            <div class="item dd date23">23</div>
+            <div class="item dd date24">24</div>
+            <div class="item dd date25">25</div>
+            <div class="item dd date26">26</div>
+            <div class="item dd date27">27</div>
+            <div class="item dd date28">28</div>
+            <div class="item dd date29">29</div>
+            <div class="item dd date30">30</div>
+            <div class="item dd date31">31</div>
+      
+        </div>
+    </body>
+</html>
